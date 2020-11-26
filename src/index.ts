@@ -14,7 +14,7 @@ export type FullyPartial<T> = {
  * @param target The item to patch
  * @param patch The patch to apply
  */
-function patch<T extends R, U extends FullyPartial<T>>(target: T, patch: U) {
+function patch<T extends R, U extends FullyPartial<T>>(target: T, patch: U): void {
     patchRecursive(target, patch);
 }
 
