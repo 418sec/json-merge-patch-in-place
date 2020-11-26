@@ -1,0 +1,7 @@
+/build/**
+/docs/**
+/coverage/**
+/tmp/**
+/node_modules/**
+Dockerfile
+/out/**

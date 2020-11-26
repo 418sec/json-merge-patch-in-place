@@ -1,0 +1,12 @@
+
+/node_modules/**
+.env
+.DS_STORE
+/src/**
+/build/**
+/out/**
+report.tap
+report.xml
+tsconfig.tsbuildinfo
+/coverage/**
+

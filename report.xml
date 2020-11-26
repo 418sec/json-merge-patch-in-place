@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="14" failures="0" errors="0" time="5.439">
+  <testsuite name="Tests:" errors="0" failures="0" skipped="0" timestamp="2020-11-26T15:46:08" time="1.19" tests="9">
+    <testcase classname="Tests: patches a value" name="Tests: patches a value" time="0.003">
+    </testcase>
+    <testcase classname="Tests: patches a value" name="Tests: patches a value" time="0">
+    </testcase>
+    <testcase classname="Tests: clears a value" name="Tests: clears a value" time="0.001">
+    </testcase>
+    <testcase classname="Tests: patches recursive values" name="Tests: patches recursive values" time="0">
+    </testcase>
+    <testcase classname="Tests: patches recursive values" name="Tests: patches recursive values" time="0">
+    </testcase>
+    <testcase classname="Tests: patches delete values" name="Tests: patches delete values" time="0.001">
+    </testcase>
+    <testcase classname="Tests: patches delete objects" name="Tests: patches delete objects" time="0">
+    </testcase>
+    <testcase classname="Tests: patches replace arrays" name="Tests: patches replace arrays" time="0">
+    </testcase>
+    <testcase classname="Tests: patches can contain multiple items" name="Tests: patches can contain multiple items" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="Tests:" errors="0" failures="0" skipped="0" timestamp="2020-11-26T15:46:08" time="4.541" tests="5">
+    <testcase classname="Tests: patches work on mongoose objects" name="Tests: patches work on mongoose objects" time="0.008">
+    </testcase>
+    <testcase classname="Tests: patches delete from mongoose objects" name="Tests: patches delete from mongoose objects" time="0.001">
+    </testcase>
+    <testcase classname="Tests: patches work on mongoose child documents" name="Tests: patches work on mongoose child documents" time="0.002">
+    </testcase>
+    <testcase classname="Tests: patches delete from mongoose child documents" name="Tests: patches delete from mongoose child documents" time="0.001">
+    </testcase>
+    <testcase classname="Tests: patches delete mongoose child documents" name="Tests: patches delete mongoose child documents" time="0.001">
+    </testcase>
+  </testsuite>
+</testsuites>
