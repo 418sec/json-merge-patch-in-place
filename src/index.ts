@@ -1,13 +1,7 @@
-import is, { Primitive } from '@sindresorhus/is';
+import is from '@sindresorhus/is';
+import { FullyPartial } from 'tsc-utils';
 
 type R = object;
-
-export type FullyPartial<T> = {
-    [P in keyof T]?:
-    T[P] extends (infer U)[] ? FullyPartial<U>[] :
-    T[P] extends Primitive ? T[P] :
-    FullyPartial<T[P]>;
-};
 
 /**
  * Applies a patch to an object, modifying it in place.
