@@ -1,6 +1,6 @@
 {
     "name": "json-merge-patch-in-place",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "Performs JSON merge-patch by changing existing objects. Meant for use with ORM's like Mongoose",
     "main": "./dist/index.js",
     "types": "./dist/index.d.ts",
@@ -18,7 +18,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://git.ellucian.com/scm/pss/nsr-ui-server.git"
+        "url": "https://github.com/RonPenton/json-merge-patch-in-place.git"
     },
     "author": "",
     "license": "ISC",

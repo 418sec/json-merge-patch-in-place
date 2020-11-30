@@ -10,3 +10,4 @@ report.xml
 tsconfig.tsbuildinfo
 /coverage/**
 
+test
