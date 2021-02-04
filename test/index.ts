@@ -175,4 +175,9 @@ describe('Tests:', () => {
         });
     });
 
+    test('patches must throw for unsafe objects', () => {
+      const payload = JSON.parse('{"__proto__":{"polluted":"Yes! Its Polluted"}}');
+      expect(() => patch({}, payload)).toThrow();
+    })
+
 });
