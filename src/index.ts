@@ -21,11 +21,18 @@ function patchRecursive(target: any, patch: any): any {
         else if (patch[key] === null) {
             target[key] = null;
         }
-        else {
+        else if (!isPrototypePolluted(key)) {
             patchRecursive(target[key], patch[key]);
         }
     }
 }
 
+/**
+ * Blacklist certain keys to prevent Prototype Pollution
+ * @param key The Object key to check
+ */
+function isPrototypePolluted(key: any): boolean {
+    return ['__proto__', 'constructor', 'prototype'].includes(key);
+}
 
 export { patch }
