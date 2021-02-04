@@ -175,4 +175,11 @@ describe('Tests:', () => {
         });
     });
 
+    test('patches cannot pollute prototype', () => {
+        const item = {};
+
+        patch(item, JSON.parse('{"__proto__": {"polluted": true}}'));
+        expect(Object.keys(Object.prototype).includes('polluted')).toBe(false);
+    });
+
 });
